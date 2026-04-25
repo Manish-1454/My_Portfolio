@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/* 🌌 Global Background */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  background: linear-gradient(to left, #020617, #0a1f44, #123a7a , #012168);
+  background-size: 300% 300%;
+  animation: gradientMove 6s ease infinite;
+}
+
+/* ✨ Smooth text rendering */
+* {
+  box-sizing: border-box;
+}
+
+/* 🔥 Navbar Links */
+a {
+  text-decoration: none;
+  color: #e2e8f0;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+/* 💎 Button Style */
+button {
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* 🧊 Glass Effect Utility */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* 🌟 Glow Effect */
+.glow {
+  box-shadow: 0 0 50px rgba(59, 130, 246, 0.4);
+}
