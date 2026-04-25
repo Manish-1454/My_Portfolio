@@ -103,7 +103,7 @@ function ProjectPage() {
 
             <motion.img
               src={Project_items[index].img}
-              className="absolute z-10 w-[90%] max-w-[700px] object-contain blur-[2px] md:top-80 lg:right-140 xl:right-220 xl:top-90 "
+              className="absolute z-10 w-[90%] max-w-[700px] object-contain md:top-80 lg:right-140 xl:right-220 xl:top-90 "
               initial={{
                 y: -900,
                 rotate: -25,
@@ -128,7 +128,7 @@ function ProjectPage() {
 
      
             <motion.p
-              className="absolute  z-90 text-white/80 text-center max-w-xl px-6 text-xl top-110 md:top-90 md:text-xl font-bold text-base whitespace-pre-line leading-relaxed lg:text-2xl lg:right-0 lg:top-75 xl:right-30"
+              className="absolute  z-90 text-white/80 text-center max-w-xl px-6 text-sm top-90 md:top-90 md:text-xl font-bold text-base whitespace-pre-line leading-relaxed lg:text-2xl lg:right-0 lg:top-75 xl:right-30"
               initial={{ opacity: 0, y: 20, filter: "blur(6px)" }}
               animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               transition={{

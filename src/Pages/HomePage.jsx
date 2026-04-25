@@ -118,7 +118,7 @@ xl:w-[420px] xl:h-[420px]  flex justify-center items-center rounded-full border-
     <motion.img
       src="https://res.cloudinary.com/dnzejcpkp/image/upload/v1776435752/cw9vfn2djr8sg4w9pxtj.png"
       alt="my_image"
-      className="z-10 w-[240px] h-[240px]   lg:w-[300px] lg:h-[300px] 
+      className="z-10 w-[220px] h-[220px]   lg:w-[300px] lg:h-[300px] 
   xl:w-[360px] xl:h-[360px] object-cover rounded-full shadow-2xl"
 
       animate={{ rotateY: [10, 25, 10] }}
